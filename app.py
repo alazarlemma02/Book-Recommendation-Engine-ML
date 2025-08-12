@@ -6,13 +6,25 @@ import random
 from datetime import datetime
 
 # ==== Load model and data ====
-with open('artifacts/model.pkl', 'rb') as f:
+artifact_files = {
+    "model": "artifacts/model.pkl",
+    "books_pivot": "artifacts/books_pivot.pkl",
+    "book_names": "artifacts/book_name.pkl",
+    "final_rating": "artifacts/final_rating.pkl"
+}
+
+for name, path in artifact_files.items():
+    if not os.path.exists(path):
+        st.error(f"Required file not found: {path}. Please ensure all model/data files are present.")
+        st.stop()
+
+with open(artifact_files["model"], 'rb') as f:
     model = pickle.load(f)
-with open('artifacts/books_pivot.pkl', 'rb') as f:
+with open(artifact_files["books_pivot"], 'rb') as f:
     books_pivot = pickle.load(f)
-with open('artifacts/book_name.pkl', 'rb') as f:
+with open(artifact_files["book_names"], 'rb') as f:
     book_names = pickle.load(f)
-with open('artifacts/final_rating.pkl', 'rb') as f:
+with open(artifact_files["final_rating"], 'rb') as f:
     final_rating = pickle.load(f)
 
 # ==== Setup interaction logging ====

@@ -1,0 +1,167 @@
+user_id,timestamp,action,book_title
+Alex,2025-05-28 13:33:18,searched,Harry Potter and the Chamber of Secrets (Book 2)
+Alex,2025-05-28 13:33:24,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-28 13:33:30,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-28 13:33:30,liked,Harry Potter and the Chamber of Secrets (Book 2)
+Max,2025-05-28 13:41:13,searched,Last Chance Saloon
+Max,2025-05-28 13:41:18,searched,Last Chance Saloon
+Max,2025-05-28 13:41:18,liked,Jacob Have I Loved
+Max,2025-05-28 13:41:29,searched,Last Chance Saloon
+Max,2025-05-28 13:41:29,liked,No Safe Place
+Alex,2025-05-28 13:52:30,searched,"The Gunslinger (The Dark Tower, Book 1)"
+Alex,2025-05-28 13:53:00,searched,"The Gunslinger (The Dark Tower, Book 1)"
+Alex,2025-05-28 13:53:00,liked,Last Man Standing
+Alex,2025-05-28 14:08:40,searched,Wuthering Heights
+Alex,2025-05-28 14:08:53,searched,Wuthering Heights
+Alex,2025-05-28 14:08:53,liked,Hearts in Atlantis
+Alex,2025-05-28 14:09:22,searched,Wuthering Heights
+Alex,2025-05-28 14:09:22,liked,Pleading Guilty
+Max,2025-05-28 14:10:16,searched,Wish You Well
+Max,2025-05-28 14:10:25,searched,Wish You Well
+Max,2025-05-28 14:11:06,searched,Zoya
+Max,2025-05-28 14:11:17,searched,Zoya
+Max,2025-05-28 14:11:17,liked,Fine Things
+Max,2025-05-28 14:15:23,searched,Nicolae: The Rise of Antichrist (Left Behind No. 3)
+Max,2025-05-28 14:16:08,searched,Before I Say Good-Bye
+Max,2025-05-28 14:16:21,searched,Before I Say Good-Bye
+Max,2025-05-28 14:16:24,searched,Before I Say Good-Bye
+Max,2025-05-28 14:16:37,searched,Before I Say Good-Bye
+Max,2025-05-28 14:16:37,liked,Let Me Call You Sweetheart
+Max,2025-05-28 14:16:45,searched,Before I Say Good-Bye
+Max,2025-05-28 14:16:56,searched,Before I Say Good-Bye
+Max,2025-05-28 14:16:56,liked,My Gal Sunday
+Max,2025-05-28 14:16:57,searched,Before I Say Good-Bye
+Max,2025-05-28 14:16:57,liked,Winter Moon
+Max,2025-05-28 14:16:58,searched,Before I Say Good-Bye
+Max,2025-05-28 14:17:04,searched,Before I Say Good-Bye
+Max,2025-05-28 14:17:13,searched,Before I Say Good-Bye
+Max,2025-05-28 14:17:16,searched,Before I Say Good-Bye
+Max,2025-05-28 14:17:18,searched,Before I Say Good-Bye
+Max,2025-05-28 14:17:20,searched,Before I Say Good-Bye
+Max,2025-05-28 14:17:58,searched,Before I Say Good-Bye
+Max,2025-05-28 14:18:08,searched,Before I Say Good-Bye
+Max,2025-05-28 14:18:08,searched,Before I Say Good-Bye
+Max,2025-05-28 14:18:12,searched,Before I Say Good-Bye
+Max,2025-05-28 14:18:47,searched,Before I Say Good-Bye
+Max,2025-05-28 14:18:51,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:05,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:07,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:13,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:15,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:18,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:20,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:22,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:24,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:25,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:26,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:27,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:28,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:29,searched,Before I Say Good-Bye
+Max,2025-05-28 14:19:33,searched,Before I Say Good-Bye
+Alazar,2025-05-28 14:20:26,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:20:58,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:20:58,liked,Sleepers
+Alazar,2025-05-28 14:21:04,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:05,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:08,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:15,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:20,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:21,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:22,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:24,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:29,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:30,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:31,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:37,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:38,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:39,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:41,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:44,searched,Everything's Eventual : 14 Dark Tales
+Alazar,2025-05-28 14:21:59,searched,2nd Chance
+Alazar,2025-05-28 14:22:07,searched,A Man in Full
+Alazar,2025-05-28 14:22:12,searched,A Man in Full
+Alazar,2025-05-28 14:22:12,liked,Absolute Power
+Alazar,2025-05-28 14:22:15,searched,A Man in Full
+Alazar,2025-05-28 14:22:16,searched,A Man in Full
+Alazar,2025-05-28 14:22:18,searched,A Man in Full
+Max,2025-05-28 20:35:46,searched,Harry Potter and the Chamber of Secrets (Book 2)
+Max,2025-05-28 20:36:01,searched,Harry Potter and the Sorcerer's Stone (Harry Potter (Paperback))
+Max,2025-05-28 20:36:10,searched,Harry Potter and the Order of the Phoenix (Book 5)
+Max,2025-05-28 20:36:37,searched,Harry Potter and the Order of the Phoenix (Book 5)
+Max,2025-05-28 20:36:45,searched,Harry Potter and the Order of the Phoenix (Book 5)
+Max,2025-05-28 20:36:48,searched,Harry Potter and the Order of the Phoenix (Book 5)
+Max,2025-05-28 20:36:52,searched,Harry Potter and the Order of the Phoenix (Book 5)
+Max,2025-05-28 20:36:58,searched,Harry Potter and the Order of the Phoenix (Book 5)
+Alex,2025-05-29 08:41:03,searched,Harry Potter and the Chamber of Secrets (Book 2)
+Alex,2025-05-29 08:41:16,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-29 08:41:25,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-29 08:41:25,liked,Harry Potter and the Sorcerer's Stone (Book 1)
+Alex,2025-05-29 08:41:31,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-29 08:41:32,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-29 08:41:35,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-29 08:41:36,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-29 08:41:38,searched,Harry Potter and the Goblet of Fire (Book 4)
+Alex,2025-05-29 09:09:08,searched,Harry Potter and the Chamber of Secrets (Book 2)
+Alex,2025-05-29 09:09:35,searched,One for the Money (A Stephanie Plum Novel)
+Alex,2025-05-29 09:09:53,searched,American Gods
+Alex,2025-05-29 09:10:50,searched,Last Chance Saloon
+Alex,2025-05-29 09:11:03,searched,Last Chance Saloon
+Alex,2025-05-29 09:11:03,liked,Table For Two
+Alex,2025-05-29 09:11:07,searched,Last Chance Saloon
+Alex,2025-05-29 09:11:07,liked,A Civil Action
+Alex,2025-05-29 09:11:11,searched,Last Chance Saloon
+Alex,2025-05-29 11:15:20,searched,A Man Named Dave: A Story of Triumph and Forgiveness
+Alex,2025-05-29 11:15:25,searched,A Man in Full
+Alex,2025-05-29 11:19:01,searched,Harry Potter and the Chamber of Secrets (Book 2)
+Alex,2025-05-29 11:19:08,searched,A Man Named Dave: A Story of Triumph and Forgiveness
+Alex,2025-05-29 11:19:15,searched,Last Man Standing
+Alex,2025-05-29 11:19:47,searched,Last Man Standing
+Alex,2025-05-29 11:19:49,searched,Last Man Standing
+Alex,2025-05-29 11:19:50,searched,Last Man Standing
+Alex,2025-05-29 11:19:54,searched,Last Man Standing
+Alex,2025-05-29 11:19:56,searched,Last Man Standing
+Alex,2025-05-29 11:19:58,searched,Last Man Standing
+Alex,2025-05-29 11:20:01,searched,Last Man Standing
+Alex,2025-05-29 11:20:14,searched,Don't Stand Too Close to a Naked Man
+Alex,2025-05-29 11:20:18,searched,Daisy Fay and the Miracle Man
+Alex,2025-05-29 11:20:23,searched,A Virtuous Woman (Oprah's Book Club (Paperback))
+Alex,2025-05-29 11:20:28,searched,A Virtuous Woman (Oprah's Book Club (Paperback))
+Alex,2025-05-29 11:20:28,liked,A Virtuous Woman (Oprah's Book Club (Paperback))
+Alex,2025-05-29 11:20:32,searched,A Virtuous Woman (Oprah's Book Club (Paperback))
+Alex,2025-05-29 11:20:33,searched,A Virtuous Woman (Oprah's Book Club (Paperback))
+keni,2025-06-05 14:05:18,searched,Harry Potter and the Chamber of Secrets (Book 2)
+keni,2025-06-05 14:06:30,searched,Harry Potter and the Chamber of Secrets (Book 2)
+keni,2025-06-05 14:06:30,liked,Jacob Have I Loved
+keni,2025-06-05 14:06:37,searched,Harry Potter and the Chamber of Secrets (Book 2)
+keni,2025-06-05 14:06:37,liked,Toxin
+keni,2025-06-05 14:06:46,searched,Harry Potter and the Chamber of Secrets (Book 2)
+james,2025-06-05 14:07:41,searched,Angels
+james,2025-06-05 14:08:34,searched,Clear and Present Danger (Jack Ryan Novels)
+james,2025-06-05 14:11:35,searched,A Bend in the Road
+james,2025-06-05 14:13:14,searched,Absolute Power
+james,2025-06-05 14:13:34,searched,A Heartbreaking Work of Staggering Genius
+james,2025-06-05 14:13:44,searched,Dark Rivers of the Heart
+james,2025-06-05 14:14:28,searched,Dark Rivers of the Heart
+james,2025-06-05 14:14:28,liked,Sole Survivor
+james,2025-06-05 14:14:28,searched,Dark Rivers of the Heart
+james,2025-06-05 14:14:33,searched,Dark Rivers of the Heart
+james,2025-06-05 14:14:33,liked,While My Pretty One Sleeps
+james,2025-06-05 14:14:36,searched,Dark Rivers of the Heart
+james,2025-06-05 14:14:36,liked,The Bad Place
+james,2025-06-05 14:14:47,searched,Dark Rivers of the Heart
+james,2025-06-05 14:14:48,liked,Long After Midnight
+Alex,2025-06-08 16:59:44,searched,By the Light of the Moon
+Alex,2025-06-08 16:59:58,searched,Turtle Moon
+Alex,2025-06-08 17:00:21,searched,Turtle Moon
+Alex,2025-06-08 17:00:23,searched,Turtle Moon
+Alex,2025-06-08 17:00:31,searched,Turtle Moon
+Alex,2025-06-08 17:00:33,searched,Turtle Moon
+Alex,2025-06-08 17:00:33,searched,Turtle Moon
+Alex,2025-06-08 17:00:34,searched,Turtle Moon
+Alex,2025-06-08 17:00:34,searched,Turtle Moon
+Alex,2025-06-08 17:00:35,searched,Turtle Moon
+Alex,2025-06-08 17:00:35,searched,Turtle Moon
+Alex,2025-06-08 17:00:36,searched,Turtle Moon
+Alazar,2025-08-13 02:07:45,searched,Harry Potter and the Chamber of Secrets (Book 2)
+Alazar,2025-08-13 02:07:56,searched,Harry Potter and the Chamber of Secrets (Book 2)
+Alazar,2025-08-13 02:07:56,liked,The Witness

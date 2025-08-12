@@ -6,20 +6,14 @@ import random
 from datetime import datetime
 
 # ==== Load model and data ====
-@st.cache_resource
-def load_model_data():
-    return {
-        'model': pickle.load(open('artifacts/model.pkl', 'rb')),
-        'books_pivot': pickle.load(open('artifacts/books_pivot.pkl', 'rb')),
-        'book_names': pickle.load(open('artifacts/book_name.pkl', 'rb')),
-        'final_rating': pickle.load(open('artifacts/final_rating.pkl', 'rb'))
-    }
-
-data = load_model_data()
-model = data['model']
-books_pivot = data['books_pivot']
-book_names = data['book_names']
-final_rating = data['final_rating']
+with open('artifacts/model.pkl', 'rb') as f:
+    model = pickle.load(f)
+with open('artifacts/books_pivot.pkl', 'rb') as f:
+    books_pivot = pickle.load(f)
+with open('artifacts/book_name.pkl', 'rb') as f:
+    book_names = pickle.load(f)
+with open('artifacts/final_rating.pkl', 'rb') as f:
+    final_rating = pickle.load(f)
 
 # ==== Setup interaction logging ====
 LOG_FILE = 'users/user_logs.csv'

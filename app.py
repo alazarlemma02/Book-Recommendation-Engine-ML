@@ -6,13 +6,24 @@ import random
 from datetime import datetime
 
 # ==== Load model and data ====
-model = pickle.load(open('artifacts/model.pkl', 'rb'))
-books_pivot = pickle.load(open('artifacts/books_pivot.pkl', 'rb'))
-book_names = pickle.load(open('artifacts/book_name.pkl', 'rb'))
-final_rating = pickle.load(open('artifacts/final_rating.pkl', 'rb'))
+@st.cache_resource
+def load_model_data():
+    return {
+        'model': pickle.load(open('artifacts/model.pkl', 'rb')),
+        'books_pivot': pickle.load(open('artifacts/books_pivot.pkl', 'rb')),
+        'book_names': pickle.load(open('artifacts/book_name.pkl', 'rb')),
+        'final_rating': pickle.load(open('artifacts/final_rating.pkl', 'rb'))
+    }
+
+data = load_model_data()
+model = data['model']
+books_pivot = data['books_pivot']
+book_names = data['book_names']
+final_rating = data['final_rating']
 
 # ==== Setup interaction logging ====
 LOG_FILE = 'users/user_logs.csv'
+os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 if not os.path.exists(LOG_FILE):
     pd.DataFrame(columns=["user_id", "timestamp", "action", "book_title"]).to_csv(LOG_FILE, index=False)
 
@@ -23,14 +34,26 @@ def log_interaction(user_id, action, book_title):
     entry.to_csv(LOG_FILE, mode='a', header=False, index=False)
 
 # ==== Collaborative Filtering ====
-def get_book_recommendations(title, n_recommendations=5):
+@st.cache_data(ttl=3600)  # Cache for 1 hour
+def get_book_recommendations(title, n_recommendations=9):
     if title not in books_pivot.index:
         return []
+
+    # Get the selected book info
+    book_info = final_rating[final_rating['title'] == title].drop_duplicates('title').iloc[0]
+    main_book = {
+        "title": title,
+        "author": book_info["author"],
+        "image_url": book_info["image_url"]
+    }
+
+    # Get recommended similar books
     book_index = books_pivot.index.get_loc(title)
     distances, indices = model.kneighbors(
         books_pivot.iloc[book_index, :].values.reshape(1, -1),
         n_neighbors=n_recommendations + 1
     )
+
     recommended_books = []
     for i in range(1, len(distances.flatten())):
         book = books_pivot.index[indices.flatten()[i]]
@@ -40,9 +63,11 @@ def get_book_recommendations(title, n_recommendations=5):
             "author": book_info["author"],
             "image_url": book_info["image_url"]
         })
-    return recommended_books
+
+    return [main_book] + recommended_books
 
 # ==== Personalized Recommendations ====
+@st.cache_data(ttl=300)  # Cache for 5 minutes
 def get_user_history_recommendations(user_id, n_recommendations=15):
     if not os.path.exists(LOG_FILE):
         return []
